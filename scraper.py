@@ -11,8 +11,8 @@
 # try reopening this page in a different browser - Chrome or the latest Firefox.
 # -----------------------------------------------------------------------------
 
-for i in range(10):
-    print "Hello", i
+#for i in range(10):
+#    print "Hello", i
 
 # -----------------------------------------------------------------------------
 # 2. Next, try scraping an actual web page and getting some raw HTML.
@@ -23,9 +23,9 @@ for i in range(10):
 # you can click on the URL to see the original page. 
 # -----------------------------------------------------------------------------
 
-#import scraperwiki
-#html = scraperwiki.scrape('https://scraperwiki.com/hello_world.html')
-#print html
+import scraperwiki
+html = scraperwiki.scrape('https://scraperwiki.com/hello_world.html')
+print html
 
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
