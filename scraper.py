@@ -24,7 +24,7 @@
 # -----------------------------------------------------------------------------
 
 import scraperwiki
-html = scraperwiki.scrape('https://scraperwiki.com/hello_world.html')
+html = scraperwiki.scrape('https://bbc.co.uk')
 print html
 
 # -----------------------------------------------------------------------------
